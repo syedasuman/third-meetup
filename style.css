@@ -1,0 +1,89 @@
+body {
+    height: 100%;
+    margin: 0px;
+    background-size: cover;
+    background-image: url(download.jpg);
+}
+
+
+header {
+    background-color: black;
+    color: white;
+     position: sticky;
+    position: -webkit-sticky;  top: 0px;
+    z-index: 100;
+    justify-content: center;
+  
+}
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 80px;
+    background-image: linear-gradient(to right,#85ec0d, #e6a939 50%, #bb2c45);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0px;
+    margin-bottom: 16px;
+    font: bold;
+    font-size: 80px;
+    padding: 16px;
+    border-bottom: 10px  solid white;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(NaN,13,NaN,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(NaN,13,NaN,1);
+    box-shadow: 1px 1px 5px 0px rgba(NaN,13,NaN,1); 
+     
+}
+img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    
+    -webkit-transition: all 1s ease;
+    transition: all  1s ease;
+
+}
+.abc {
+    position: absolute;
+    top:180px;
+    left: 20px;
+    float: right;
+    padding: 16px;
+    height: 880px;
+    width: 400px;
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 36px;
+    text-align: center;  
+
+}
+section {
+    padding: 16px;
+    padding-top: 36px;
+    border: 2px solid #f1bafc;
+    border-radius: 4px;
+    margin: 16px;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    
+}
+img:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+}
+
+section:hover {
+    background-color: black;
+    transition: background 2s;
+}
+a {
+    color: blanchedalmond;
+}

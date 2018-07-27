@@ -1,0 +1,39 @@
+body {
+    background-image: url(mockups/disco.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 0.5em;
+    font-size: 7em;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 0 0 50px gold;    
+}
+header:hover {
+    color: gold;
+    text-shadow: 0 0 50px black;        
+}
+
+p {
+    font-family: 'Handlee', cursive;
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+section {
+    /* background-color: rgba(244, 66, 167, 0.2); */
+    max-width: 50%;
+    padding: 1em;
+}
+
+article {
+    background-image: linear-gradient(to right, rgba(255,255,255, 0.5), transparent);
+    background-attachment: fixed;    
+}

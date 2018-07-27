@@ -1,0 +1,72 @@
+html,body{
+	margin:0px;
+}
+
+div{
+	background: black;
+	color: white;
+	padding: 5px;
+    display: inline-grid;
+    padding-bottom: 11px;
+
+}
+
+span{
+	font-size: 10px;
+}
+
+i{
+	font-size: 20px;
+}
+
+.ab{
+	padding-top: 10px;
+}
+
+div:hover .ab{
+    color:orange;
+    text-decoration-color: white;
+}
+
+div:hover .cd{
+	color: yellow;
+}
+
+div:hover .ef{
+	color: red;
+}
+div:hover .gh{
+	color: pink;
+}
+
+div:hover .ah{
+	color:green;
+}
+
+div:hover .bg{
+	color: purple;
+}
+
+div:hover .cf{
+	color: blue;
+}
+
+div:hover .de{
+	color: #8bc34a;
+}
+
+div:hover .abc{
+	color: #bd7625;
+}
+
+div:hover .def{
+	color: #4d626e;
+}
+
+.ghi{
+	color: black;
+}
+
+div:hover .ghi{
+	color: white;
+}

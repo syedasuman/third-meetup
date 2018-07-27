@@ -1,0 +1,52 @@
+li {
+    display: inline-block;
+    padding: 1em;
+}
+
+ul {
+    margin: 0px;
+    display: inline-block;
+}
+
+nav {
+    background-image: linear-gradient(to right, #673AB7,#FF9800);
+    color: white;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+li:hover {
+    background: #263238;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background: white;
+    color: #009688;
+    position: relative;
+    height: 100px;
+}
+
+article {
+    padding-left: 2em;
+}
+
+header > div {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    background-image: url('images/tile.png');
+    background-size: contain;
+}

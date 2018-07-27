@@ -1,0 +1,10 @@
+body{
+	background-color: lightgray;
+}
+h1{
+  color: white;
+  text-align: center;
+  border: 10px double black;
+  padding: 25px;
+  background-origin: padding-box;
+}

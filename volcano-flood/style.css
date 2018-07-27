@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-div {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.description-div p {
+    color: white;
+    padding: 1em;
+}
+
+figcaption {
+    font-size: 25px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+figure:hover figcaption {
+    color: #FF6D00;
+    background-color: #212121;
+}
+
+figure:hover {
+    cursor: pointer;    
+}
+
+figure {
+    border: 2px solid #212121;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+figure:hover .description-div {
+    display: inline-block;
+}
+
+figure {
+    display: inline-block;
+}
+
+.img {
+    position: relative;    
+}
+
+.description-div {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.description-div button {
+    padding: 10px;
+    background: #212121;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.description-div button:hover {
+    background-color: #FFC107;
+    color: #212121;
+    border-color: #212121;
+    cursor: pointer;
+}
+
+.description-div button:focus {
+    outline: none;
+}
+
+.description-div button:active {
+    background-color: #FFEB3B;
+}

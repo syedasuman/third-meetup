@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', 'cursive';
+}
+
+img {
+    width: 100px;
+}
+
+header {
+    padding: 1em;
+    position: relative;
+}
+
+article {
+    background-color: beige;
+    padding: 2em;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+ul li:hover{
+    background-color: #B31E26;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0px;
+}
+
+ul > li:last-child {
+    position: absolute;
+    right: 40px;
+}
+
+nav {
+    background: black;
+    color: white;
+    font-weight: bold;
+    position: sticky;
+    position: -webkit-sticky;  top: 0px;
+    z-index: 100;
+}
+
+header span {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+header span {
+    right: 0px;
+}
+
+header {
+    background: #751015;
+    color: white;
+}
+
+p {
+    position: sticky;
+}
